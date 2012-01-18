@@ -1,0 +1,18 @@
+{
+	"name": "QuickMag",
+	"version": "0.1",
+	"description": "Alfresco QuickMag (built on Forge)",
+	"permissions": ["tabs", "http://home.sala.us/*", "http://*/*", "https://*/*", "http://*/*", "https://*/*"],
+	"background_page": "forge.html",
+	"content_scripts": [
+		{
+			"matches": ["http://*/*", "https://*/*"]
+			, "js": ["forge/all.js", "src/js/every-page.js"]
+			, "css": []
+			, "run_at": "document_start"
+			, "all_frames": false
+
+		}
+	],
+	"browser_action": {"default_icon": "src/img/apple-touch-icon.png", "default_popup": "src/index.html"}
+}

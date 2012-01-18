@@ -1,0 +1,71 @@
+input[type="email"], input[type="tel"], input[type="number"], input[type="text"], textarea {
+	-webkit-appearance: none;
+	background: #f5f5f5;
+	border: 1px solid #bbb;
+	border-radius: 5px;
+	box-shadow: inset 0 1px 1px #bbb;
+	-webkit-box-shadow: inset 0 1px 1px #bbb;
+	padding: 3px;
+	margin: 3px;;
+}
+
+input[type="submit"], button {
+	-webkit-appearance: none;
+	background: #f5f5f5;
+	background: -moz-linear-gradient(top, #fefefe 0%, #e0e0e0 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fefefe), color-stop(100%,#e0e0e0));
+	background: -webkit-linear-gradient(top, #fefefe 0%,#e0e0e0 100%);
+	background: -o-linear-gradient(top, #fefefe 0%,#e0e0e0 100%);
+	background: -ms-linear-gradient(top, #fefefe 0%,#e0e0e0 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', endColorstr='#e0e0e0',GradientType=0 );
+	background: linear-gradient(top, #fefefe 0%,#e0e0e0 100%);
+	border: 1px solid #bbb;
+	border-radius: 10px;
+	box-shadow: 0 1px 1px #bbb;
+	-webkit-box-shadow: 0 1px 1px #bbb;
+	padding: 5px 10px;
+	margin: 3px;
+}
+
+button._down {
+	background: #e0e0e0;
+	background: -moz-linear-gradient(top, #e0e0e0 0%, #fefefe 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e0e0e0), color-stop(100%,#fefefe));
+	background: -webkit-linear-gradient(top, #e0e0e0 0%,#fefefe 100%);
+	background: -o-linear-gradient(top, #e0e0e0 0%,#fefefe 100%);
+	background: -ms-linear-gradient(top, #e0e0e0 0%,#fefefe 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0e0e0', endColorstr='#fefefe',GradientType=0 );
+	background: linear-gradient(top, #e0e0e0 0%,#fefefe 100%);
+}
+
+input[type="radio"] {
+	-webkit-appearance: none;
+	background: #fefefe;
+	border: 1px solid #bbb;
+	border-radius: 9px;
+	box-shadow: inset 1px 0 3px #bbb, inset -1px 0 3px #bbb, inset 0 1px 3px #bbb, inset 0 -1px 3px #bbb;
+	-webkit-box-shadow: inset 1px 0 3px #bbb, inset -1px 0 3px #bbb, inset 0 1px 3px #bbb, inset 0 -1px 3px #bbb;
+	height: 18px;
+	width: 18px;
+	margin: 0px 3px;
+}
+
+input[type="radio"]._selected {
+	background: #444;
+}
+
+input[type="checkbox"] {
+	-webkit-appearance: none;
+	background: #fefefe;
+	border: 1px solid #bbb;
+	border-radius: 2px;
+	box-shadow: inset 1px 0 3px #bbb, inset -1px 0 3px #bbb, inset 0 1px 3px #bbb, inset 0 -1px 3px #bbb;
+	-webkit-box-shadow: inset 1px 0 3px #bbb, inset -1px 0 3px #bbb, inset 0 1px 3px #bbb, inset 0 -1px 3px #bbb;
+	height: 18px;
+	width: 18px;
+	margin: 0px 3px;
+}
+
+input[type="checkbox"]._selected {
+	background: #444;
+}
